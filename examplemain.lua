@@ -1,6 +1,6 @@
 print("Example App Main File")
-os.loadAPI("dependencies/exampledepenancy")
-os.loadAPI("dependencies/examplelayer/exampledepenecylayered")
+os.loadAPI("exampleapp/dependencies/exampledepenancy.lua
+os.loadAPI("exampleapp/dependencies/examplelayer/exampledepenecylayered.lua")
 
 exampledepenancy.printMessage()
 exampledepenecylayered.printLayeredMessage()
